@@ -14,8 +14,8 @@ export const fetchCapitalsData = async () => {
         capital: country.capital[0],
         lat: country.capitalInfo.latlng[0],
         lon: country.capitalInfo.latlng[1],
-        language: country.languages ? Object.values(country.languages)[0] : "N/A", // Ajout de la langue
-        flagUrl: country.flags.png, // Ajout de l'URL du drapeau
+        language: country.languages ? Object.values(country.languages)[0] : "N/A", 
+        flagUrl: country.flags.png, 
       }));
 
     return capitals;
