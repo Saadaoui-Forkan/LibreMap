@@ -10,16 +10,15 @@ A dynamic mapping application that displays world capitals with interactive popu
 
 - React.js
 - React & TypeScript
-- Tailwind CSS
-- Leaflet
-- React-Leaflet
+- Maplibre.js
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
 ```
 git clone https://github.com/Saadaoui-Forkan/LibreMap.git
-cd world-capitals-map
+
+cd LibreMap
 ```
 
 ### 2. Install Dependencies
